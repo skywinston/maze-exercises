@@ -1,7 +1,7 @@
 var findNeighbors = require('../src/find-neighbors');
 var expect = require('chai').expect;
 
-xdescribe("findNeighbors", function(){
+describe("findNeighbors", function(){
   var maze;
 
   it("returns an empty array if all neighbors have a dash", function () {

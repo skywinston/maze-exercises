@@ -9,20 +9,21 @@
 // WHY? - this is the function you'll use in your maze solution to determine the "children"
 
 module.exports = function findNeighbors(maze, point, exclude) {
+  var y = point[0];
+  var x = point[1];
   var directions = [
     [y - 1, x], // up (north)
     [y, x + 1], // right (east)
     [y + 1, x], // down (south)
     [y, x - 1]  // left (west)
   ];
-  var y = point[0];
-  var x = point[1];
   var neighbors = [];
 
-  if (maze[y - 1][x] !== '-' && maze[y - 1][x] !== undefined) neighbors.push(directions[0]);
-  if (maze[y][x + 1] !== '-' && maze[y][x + 1] !== undefined) neighbors.push(directions[1]);
-  if (maze[y + 1][x] !== '-' && maze[y + 1][x] !== undefined) neighbors.push(directions[2]);
-  if (maze[y][x - 1] !== '-' && maze[y][x - 1] !== undefined) neighbors.push(directions[3]);
+  if (point === exclude) return neighbors;
+  if (maze[y - 1][x] !== undefined && maze[y - 1][x] !== "-") neighbors.push(maze[y - 1][x]);
+  if (maze[y][x + 1] !== undefined && maze[y][x + 1] !== "-") neighbors.push(maze[y][x + 1]);
+  if (maze[y + 1][x] !== undefined && maze[y + 1][x] !== "-") neighbors.push(maze[y + 1][x]);
+  if (maze[y][x - 1] !== undefined && maze[y][x - 1] !== "-") neighbors.push(maze[y][x - 1]);
 
   return neighbors;
 

@@ -7,5 +7,14 @@
 //  - it also builds on the accumulator pattern
 
 module.exports = function treeToPaths(node, path) {
+    var result = [];
+    var path = path || [];
+    path.push(node.value);
+    result.push(path);
 
-}
+    node.children.forEach( function (child) {
+        result = result.concat(treeToPaths(child, path.slice(0)));
+    });
+
+    return result;
+};

@@ -1,7 +1,7 @@
 var treeToPaths = require('../src/tree-to-paths');
 var expect = require('chai').expect;
 
-xdescribe("treeToPaths", function(){
+describe("treeToPaths", function(){
   it("returns an array of paths from a tree", function () {
     var tree = {
       value: "A",
