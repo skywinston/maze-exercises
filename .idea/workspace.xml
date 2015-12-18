@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acafd61d-0423-454f-99bd-55ad22dde880" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/find-neighbors.js" afterPath="$PROJECT_DIR$/src/find-neighbors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree-to-array.js" afterPath="$PROJECT_DIR$/src/tree-to-array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/02-tree-to-array.test.js" afterPath="$PROJECT_DIR$/test/02-tree-to-array.test.js" />
     </list>
     <ignored path="maze-solvability.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,12 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="50-find-neighbors.test.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/50-find-neighbors.test.js">
+      <file leaf-file-name="02-tree-to-array.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/02-tree-to-array.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12529002">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tree-to-array.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tree-to-array.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.87703013">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,6 +57,8 @@
         <option value="$PROJECT_DIR$/src/any-node.js" />
         <option value="$PROJECT_DIR$/src/find-neighbors.js" />
         <option value="$PROJECT_DIR$/test/50-find-neighbors.test.js" />
+        <option value="$PROJECT_DIR$/test/02-tree-to-array.test.js" />
+        <option value="$PROJECT_DIR$/src/tree-to-array.js" />
       </list>
     </option>
   </component>
@@ -186,14 +201,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/02-tree-to-array.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/01-any-node.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -224,9 +231,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/50-find-neighbors.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12529002">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.9187935">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/02-tree-to-array.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree-to-array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87703013">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -9,5 +9,14 @@ module.exports = function treeToArray(node) {
   // so initialize the return value
   var result = [];
 
+  function go (node) {
+    result.push(node.value);
+    node.children.forEach( function (child) {
+      go(child);
+    });
+  }
+
+  go(node);
+
   return result;
-}
+};
