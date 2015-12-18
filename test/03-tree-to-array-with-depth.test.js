@@ -1,7 +1,7 @@
 var treeToArrayWithDepth = require('../src/tree-to-array-with-depth');
 var expect = require('chai').expect;
 
-xdescribe("treeToArrayWithDepth", function(){
+describe("treeToArrayWithDepth", function(){
   it("returns an array of node values in the order they were visited", function () {
 
     var tree = {

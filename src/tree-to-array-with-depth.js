@@ -11,5 +11,15 @@ module.exports = function treeToArray(node, depth) {
   // so initialize the return value
   var result = [];
 
+  function go (node, depth) {
+    var depth = depth || 0;
+    result.push(node.value + depth);
+    node.children.forEach( function (child) {
+      go(child, depth + 1);
+    });
+  }
+
+  go(node);
+
   return result;
 }
