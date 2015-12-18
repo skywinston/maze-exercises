@@ -7,8 +7,13 @@
 module.exports = function anyNode(node, value) {
   // this function takes a node and returns a boolean value,
   // so initialize the return value
-  var result = false;
+    var result = false;
+    if (node.value === value) return true;
 
+    for(var i = 0; i < node.children.length; i++){
+        var x = anyNode(node.children[i], value);
+        result = result || x;
+    }
 
-  return result;
-}
+    return result;
+};
